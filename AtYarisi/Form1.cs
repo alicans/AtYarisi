@@ -30,7 +30,6 @@ namespace AtYarisi
             if (ondeki.Right > bitis.Left)
             {
                 timer1.Stop();
-                //MessageBox.Show("Yarýþ bitti. " + ondeki.Tag + " no'lu at yarýþý kazandý.");
                 lblDurum.Text = "Yarýþ bitti. " + ondeki.Tag + " no'lu at yarýþý kazandý.";
                 label1.Text = "KAZANAN\n" + ondeki.Tag + " numara!";
             }
